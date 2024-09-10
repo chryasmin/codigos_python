@@ -1,8 +1,7 @@
 #número 3
 
-valor_inteiro = float(input("O número é divisível por: "))
+valor = int(input("Informe um valor qualquer maior que zero: "))
 
-if valor_inteiro % 2 == 0:
-    print(f"{valor_inteiro} é divisível")
-else: 
-    print(f"{valor_inteiro} não é divisível")    
+for contador in range(1, valor+1):
+    if valor % contador == 0:
+        print(contador, end=" ") 

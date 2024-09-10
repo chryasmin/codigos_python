@@ -1,17 +1,14 @@
 #número 6
 
-idade = int(input("Informe a idade do jog. 1: "))
-peso = float(input("Informe o peso do do jog. 1: "))
+somar_pesos = 0
+soma_idades = 0
 
-idade = int(input("Informe a idade do jog. 2: "))
-peso = float(input("Informe o peso do do jog. 2: "))
+for contador in range(5):
+    peso = float(input(f"Informe seu peso {contador+1}: "))
+    idade = int(input(f"Informe sua idade {contador+1}: "))
 
-idade = int(input("Informe a idade do jog. 3: "))
-peso = float(input("Informe o peso do do jog. 3: "))
+    somar_pesos = somar_pesos + peso
+    soma_idades = soma_idades + idade
 
-idade = int(input("Informe a idade do jog. 4: "))
-peso = float(input("Informe o peso do do jog. 4: "))
-
-idade = int(input("Informe a idade do jog. 5: "))
-peso = float(input("Informe o peso do do jog. 5: "))
-
+print (f"A média de peso do time é {somar_pesos/5}")
+print (f"A média da idade do time é {soma_idades/5}")

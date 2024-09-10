@@ -1,11 +1,11 @@
 #numero 4
 
-valor_inicial = int(input("Informe um valor inicial:"))
-valor_final = int(input("Informe um valor final:"))
+valor_inicial = int(input("Informe um valor inicial: "))
+valor_final = int(input("Informe um valor final: "))
 
-soma = 0
+soma = 0 #inicializando a variável
 
-for cont in range(valor_inicial+1,valor_final):
-    soma = soma + cont 
+for contador in range(valor_inicial, valor_final+1):
+    soma = soma + contador
 
-print(soma)
+print(f"A soma do intervalo de {valor_inicial} até {valor_final} é {soma}")
