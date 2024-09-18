@@ -9,7 +9,7 @@ for i in range(10):
     
 indices_dez = []
     
-for i in range(len(valores)): #len:gera uma sequência de números de 0 até os 10 elementos
+for i in range(len(valores)): #len:"gera" e "limita" a sequência de números de 0 até os 10 elementos #não pecisava do len
     if valores[i] == 10:
         indices_dez.append(i)
     

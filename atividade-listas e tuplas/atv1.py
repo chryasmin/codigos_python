@@ -1,7 +1,6 @@
 #1.	Elabore um algoritmo que solicite ao usuário 7 valores e insira esses valores em uma lista, após isso calcule e mostre 
 #a quantidade de números ímpares que estão presentes na lista.
 
-
 valores = []
     
 for i in range(7):
@@ -16,6 +15,3 @@ for valor in valores:
         quantidade_impares += 1
 
 print(f"A quantidade de números ímpares na lista é: {quantidade_impares}")
-
-
-    0
